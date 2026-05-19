@@ -321,3 +321,34 @@ img {
   align-items: center;
   padding-top: 16px;
 }
+/* Value Cards Layout */
+.value-card {
+  min-height: 350px;
+  justify-content: space-between;
+}
+.empty-desktop {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+.h-20vh {
+  height: 100px;
+}
+.absolute-bottom {
+  position: absolute;
+  bottom: 20px;
+}
+
+/* Contact Banner */
+.contact-banner {
+  background: var(--bg-green);
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.banner-title {
+  font-size: 8vw;
+  line-height: 1.1;
+}
