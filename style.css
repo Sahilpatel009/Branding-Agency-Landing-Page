@@ -258,3 +258,33 @@ img {
     transform: translateX(-100%);
   }
 }
+
+/* Grids & Cards */
+.grid-layout-4,
+.portfolio-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 60px;
+}
+.service-card,
+.value-card,
+.team-card {
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.service-card .card-title {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+.service-card .card-link {
+  margin-top: auto;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.section-label {
+  font-size: 12px;
+  padding: 20px 0;
+  color: var(--color-gray-dark);
+}
