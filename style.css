@@ -352,3 +352,94 @@ img {
   font-size: 8vw;
   line-height: 1.1;
 }
+/* For DESKTOP VIEW */
+@media (min-width: 1024px) {
+  .site-container {
+    padding: 0 100px;
+  }
+
+  /* Navbar */
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .logo-section {
+    justify-content: flex-start;
+  }
+  .nav-links {
+    gap: 40px;
+    justify-content: flex-end;
+  }
+
+  /* Hero */
+  .hero-section {
+    padding: 100px 0;
+  }
+  .hero-title {
+    font-size: 6.5vw;
+  }
+  .hero-description {
+    font-size: 1.5vw;
+  }
+
+  /* Grids */
+  .grid-layout-4 {
+    flex-direction: row;
+    gap: 0;
+    justify-content: space-between;
+  }
+  .service-card,
+  .value-card,
+  .team-card {
+    width: 23%;
+  }
+
+  .portfolio-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .portfolio-card {
+    width: 49%;
+    margin-bottom: 40px;
+  }
+
+  .section-heading {
+    font-size: 3.5vw;
+  }
+  .empty-desktop {
+    display: block;
+    background: transparent;
+  }
+
+  /* Contact */
+  .contact-banner {
+    flex-direction: row;
+    padding: 100px 50px;
+  }
+  .contact-left {
+    width: 30%;
+  }
+  .contact-right {
+    width: 70%;
+  }
+  .banner-title {
+    font-size: 4vw;
+  }
+
+  /* Footer */
+  .footer-top {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-column {
+    width: 23%;
+  }
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
