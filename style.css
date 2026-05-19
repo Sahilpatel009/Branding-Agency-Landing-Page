@@ -109,6 +109,7 @@ img {
 .link-hover:hover {
   text-decoration: underline;
 }
+
 /* Buttons */
 .btn-solid {
   background: var(--color-black);
@@ -288,6 +289,7 @@ img {
   padding: 20px 0;
   color: var(--color-gray-dark);
 }
+
 /* Portfolio */
 .section-heading-bar {
   display: flex;
@@ -321,6 +323,7 @@ img {
   align-items: center;
   padding-top: 16px;
 }
+
 /* Value Cards Layout */
 .value-card {
   min-height: 350px;
@@ -352,6 +355,31 @@ img {
   font-size: 8vw;
   line-height: 1.1;
 }
+
+/* Footer */
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 0;
+}
+.social-links {
+  display: flex;
+  gap: 16px;
+  font-size: 20px;
+}
+.footer-links li {
+  margin-bottom: 12px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  text-align: center;
+}
+
 /* For DESKTOP VIEW */
 @media (min-width: 1024px) {
   .site-container {
