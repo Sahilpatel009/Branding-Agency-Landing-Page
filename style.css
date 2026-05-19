@@ -177,3 +177,52 @@ img {
   width: 100%;
   padding: 0 20px;
 }
+
+/* Header & Nav */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  gap: 16px;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+.logo-img {
+  width: 100px;
+}
+.hiring-badge {
+  background: var(--bg-badge);
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: 12px;
+}
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.cart-count {
+  background: var(--bg-badge);
+  padding: 0 6px;
+  border-radius: 99px;
+  margin-left: 4px;
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 40px 0;
+}
+.hero-title {
+  font-size: 12vw;
+  line-height: 1.1;
+}
+.hero-description {
+  font-size: 4vw;
+  margin-top: 16px;
+}
