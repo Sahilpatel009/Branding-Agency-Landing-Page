@@ -151,3 +151,29 @@ img {
   padding: 4px 12px;
   font-size: 12px;
 }
+
+/* Background Helpers */
+.gray-bg {
+  background-color: var(--bg-gray);
+}
+.blue-bg {
+  background-color: var(--bg-blue);
+}
+.green-bg {
+  background-color: var(--bg-green);
+}
+.peach-bg {
+  background-color: var(--bg-peach);
+}
+.yellow-bg {
+  background-color: var(--bg-yellow);
+}
+.light-gray-bg {
+  background-color: var(--bg-light-gray);
+}
+
+/* MAIN SECTIONS */
+.site-container {
+  width: 100%;
+  padding: 0 20px;
+}
